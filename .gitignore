@@ -1,0 +1,27 @@
+# Git Ignore for OpenClaw Memory System
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Runtime generated files
+memory/*.md
+pending/
+heartbeat-state.md
+
+# Sensitive data
+*.key
+*.pem
+.env
+config/local.json

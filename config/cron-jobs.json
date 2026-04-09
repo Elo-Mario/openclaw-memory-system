@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "heartbeat-001",
+      "name": "Self-Improving Heartbeat",
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 22 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "payload": {
+        "kind": "systemEvent",
+        "text": "🧠 Self-Improving Heartbeat 触发"
+      }
+    },
+    {
+      "id": "dream-001",
+      "name": "Memory Dreaming Promotion",
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 3 * * *"
+      },
+      "payload": {
+        "kind": "systemEvent",
+        "text": "__openclaw_memory_core_short_term_promotion_dream__"
+      }
+    }
+  ]
+}
